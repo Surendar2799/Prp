@@ -7,10 +7,14 @@ public class Odd_Even {
 		int a=n.nextInt();
 		if(a%2==0)
 		{
-			System.out.println("Given " +a+ " is Even");
+			System.out.println("Even");
 		}
-		else
-			System.out.println("Given " +a+ " is Odd");
+		else if(a<0)
+		{
+			System.out.println("invalid");
+		}
+		else 
+			System.out.println("Odd");
 		n.close();
 	}
 }
