@@ -7,7 +7,10 @@ public class Sum_of_2 {
 		int a=n.nextInt();
 		int b=n.nextInt();
 		int c=a+b;
-		System.out.println(c);
+		if(c%2==0)
+			System.out.println("Even");
+		else
+			System.out.println("Odd");
 		n.close();
 	}
 }
